@@ -141,3 +141,6 @@ that shaped the chunked-render / still-frame-first workflow).
 - [@sparticuz/chromium](https://github.com/Sparticuz/chromium) — Chromium binary
   distributed via npm, used as the environment workaround described in §4.
 - Suno AI — soundtrack generation (song produced by the student prior to this session).
+
+
+## Yael & Shir
