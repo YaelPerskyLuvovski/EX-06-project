@@ -1,0 +1,66 @@
+{
+  "title": "One Minute at a Time",
+  "logline": "An overwhelmed university student discovers a time-management app and turns her chaotic days into confident, well-managed ones.",
+  "duration_seconds": 60,
+  "fps": 30,
+  "aspect_ratio": "16:9",
+  "resolution": "1920x1080",
+  "visual_style": "Disney/Pixar-inspired 2D vector animation: warm rounded character design, bright saturated color palette, soft shadows, expressive squash-and-stretch motion, built with SVG + React/Remotion (code-driven, no photoreal AI image generation)",
+  "protagonist": {
+    "name": "Maya",
+    "role": "University student",
+    "design": "Round friendly face, warm brown wavy hair in a bun, oversized mustard hoodie, big expressive eyes for emotion acting"
+  },
+  "product": {
+    "name": "TimeWise",
+    "type": "Time-management mobile app",
+    "logo_style": "Rounded clock-leaf hybrid mark, purple-to-teal gradient, friendly and calm"
+  },
+  "music": {
+    "source": "Suno AI-generated song 'One Minute at a Time'",
+    "full_song_duration_seconds": 147.9,
+    "cue_sheet": [
+      { "scene": 1, "section": "Verse 1", "source_start_s": 2.0, "source_end_s": 22.0, "lyric_excerpt": "Another morning, running late / Too many dreams, too much on my plate / Missed the bus, missed another chance / Always living by circumstance" },
+      { "scene": 2, "section": "Chorus", "source_start_s": 35.75, "source_end_s": 55.75, "lyric_excerpt": "Every minute matters now / I finally learned the why and how / One small change can light the way" },
+      { "scene": 3, "section": "Bridge", "source_start_s": 78.5, "source_end_s": 98.5, "lyric_excerpt": "One decision changed it all / Now I rise instead of fall / The future starts with what I choose... / One minute at a time" }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_1_chaos",
+      "act": "Opening / Problem setup (Fountain: פתיח)",
+      "timecode": "00:00-00:20",
+      "duration_frames": 600,
+      "location": "INT. MAYA'S DORM ROOM - MORNING",
+      "caption": "Maya was always one minute too late.",
+      "action": "Alarm blares. Maya jolts awake, hair a mess. Books and papers are scattered everywhere. A wall clock's hands spin unnaturally fast. Maya rushes around, knocks over a coffee cup, trips over her backpack, and watches the campus bus pull away through the window. She collapses face-down on her desk, defeated.",
+      "camera": "Handheld-feeling quick cuts; clock in extreme close-up; wide shot of messy room; POV shot of bus leaving through window",
+      "emotion_arc": "panic -> frustration -> defeat",
+      "sfx": ["alarm clock ringing", "papers rustling", "bus engine driving off", "comedic thud"]
+    },
+    {
+      "id": "scene_2_discovery",
+      "act": "Turning point (Fountain: בעיה -> פתרון מתחיל)",
+      "timecode": "00:20-00:40",
+      "duration_frames": 600,
+      "location": "INT. DORM ROOM - CONTINUOUS",
+      "caption": "Then she found TimeWise.",
+      "action": "Maya's phone glows on the desk. She picks it up; the TimeWise app icon blooms open with a soft sparkle animation. A calendar and checklist populate themselves in friendly, rounded UI cards. Maya's expression shifts from exhausted to curious, then hopeful, as she taps her first task.",
+      "camera": "Close-up on phone screen UI animating in; close-up on Maya's face lighting up; slow push-in",
+      "emotion_arc": "curiosity -> hope -> determination",
+      "sfx": ["magical chime / UI bloom sound", "soft notification pop", "gentle whoosh"]
+    },
+    {
+      "id": "scene_3_success",
+      "act": "Resolution (Fountain: פתרון)",
+      "timecode": "00:40-01:00",
+      "duration_frames": 600,
+      "location": "EXT. CAMPUS - DAY (SUNNY)",
+      "caption": "One minute at a time, she got her life back.",
+      "action": "Maya walks confidently across a sunny campus, checking off tasks on TimeWise with a smile. She arrives to class early, high-fives a friend, and sits down calm and organized. Final beat: her phone screen shows every task checked off, and the TimeWise logo settles beside the title card 'One Minute at a Time'.",
+      "camera": "Wide tracking shot of confident walk; medium shot of high-five; final centered logo/title card",
+      "emotion_arc": "confidence -> joy -> quiet pride",
+      "sfx": ["upbeat footsteps", "friendly high-five slap", "soft check-mark 'ding' sounds", "campus ambience / distant crowd chatter"]
+    }
+  ]
+}
